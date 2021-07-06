@@ -7,6 +7,7 @@ body{
 }
 section{
     display: flex;
+    margin-bottom: 50px;
 }
 .size-maintain{
     width: 60%;
@@ -22,4 +23,12 @@ section{
     border-radius: 20px;
     font-weight: 600;
     color: white;
+}
+.food-bank{
+    padding-right: 5%;
+    text-align: center;
+}
+.food-bank img{
+    width: 230%;
+    height: 60%;
 }
