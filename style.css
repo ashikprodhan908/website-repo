@@ -1,16 +1,27 @@
 body{
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 150%;
+    margin: 0;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
 }
 .orange-color{
     color: deeppink;
 }
-section{
+.food-container{
     display: flex;
+    margin-top: 80px;
     margin-bottom: 50px;
 }
 .size-maintain{
     width: 60%;
+    padding-right: 5%;
     padding-left: 5%;
 }
 .size-maintain img{
@@ -27,8 +38,31 @@ section{
 .food-bank{
     padding-right: 5%;
     text-align: center;
+    margin-top: 25px;  
 }
 .food-bank img{
-    width: 230%;
+    width: 252%;
     height: 60%;
+    padding-right: 15%;
 }
+.recipies-list{
+    padding: 5px;
+    width: 400px;
+    margin: 5px 25px ;
+    border-radius:20px;
+    box-shadow: 10px 10px 40px 10px gray;
+}
+.recipies-list img{
+    width: 99%;
+}
+footer h1{
+    text-align: center;
+}
+footer p{
+    text-align: center;
+}
+.box{
+    background-color: gray;
+}
+
+    
