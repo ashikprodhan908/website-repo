@@ -1,0 +1,25 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 150%;
+}
+.orange-color{
+    color: deeppink;
+}
+section{
+    display: flex;
+}
+.size-maintain{
+    width: 60%;
+    padding-left: 5%;
+}
+.size-maintain img{
+    width: 80%;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(deepskyblue, skyblue);
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-weight: 600;
+    color: white;
+}
